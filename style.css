@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: #94d5e9;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.container {
+  background: rgb(230, 58, 207);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 5px;
+}
+button {
+  padding: 10px;
+}
+li {
+  margin-top: 10px;
+  cursor: pointer;
+}
+li.done {
+  text-decoration: line-through;
+  color: gray;
+}
